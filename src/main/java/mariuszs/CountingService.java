@@ -12,11 +12,6 @@ public class CountingService {
    * Increment the given number by one.
    */
   public int increment(int count) {
-      try {
-          TimeUnit.SECONDS.sleep(2);
-      } catch (InterruptedException e) {
-          e.printStackTrace();
-      }
       return count + 1;
   }
 }

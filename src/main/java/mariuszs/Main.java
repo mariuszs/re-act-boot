@@ -21,7 +21,7 @@ import static mariuszs.akka.SpringExtension.SpringExtProvider;
 /**
  * A main class to start up the application.
  */
-@Component
+//@Component
 public class Main implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(Main.class);
